@@ -10,7 +10,7 @@
 https://github.com/c0olw/NacosRce
 
 MakeToken
-生成特定用户的token
+生成特定用户的token 
 AddUser
 添加一个用户
 
@@ -28,6 +28,11 @@ AddUser
 
 ### MakeToken
 <img width="1666" alt="image" src="https://github.com/pap1rman/postnacos/assets/26729456/60089b8d-fa3d-4584-bc16-90dc5423d486">
+
+将生成后的token 保存进浏览器cookie 
+格式 token:{xxx}
+
+<img width="1222" alt="image" src="https://github.com/pap1rman/postnacos/assets/26729456/7819b38c-e558-49b0-bce7-dd6d9b5a185b">
 
 
 ### Adduser
