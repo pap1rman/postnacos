@@ -6,7 +6,7 @@
 
 当你在Nacos拥有一个哥斯拉webshell之后，你就可以使用哥斯拉的Nacos后渗透插件
 
-例如使用下面大哥项目打哥斯拉 shell
+例如使用下面大哥项目打哥斯拉 shell  
 https://github.com/c0olw/NacosRce
 
 MakeToken
