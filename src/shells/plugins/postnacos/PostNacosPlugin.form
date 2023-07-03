@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="shells.plugins.postnacos.PostNacosPlugin">
+  <grid id="27dc6" binding="corePanel" layout-manager="GridLayoutManager" row-count="2" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1079" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="ac4c2" class="org.fife.ui.rtextarea.RTextScrollPane" binding="resultTextScrollPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="8" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <lineNumbersEnabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ab0c0" class="core.ui.component.RTextArea" binding="resultTextArea">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="2ded0" class="javax.swing.JButton" binding="makeTokenButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <hideActionText value="false"/>
+          <text value="MakeToken"/>
+        </properties>
+      </component>
+      <component id="f9e1a" class="javax.swing.JButton" binding="addUserButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AddUser"/>
+        </properties>
+      </component>
+      <component id="1bd1" class="javax.swing.JButton" binding="updatePasswordButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="UpdatePassword"/>
+        </properties>
+      </component>
+      <component id="2961d" class="javax.swing.JButton" binding="enumAllUserButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="EnumAllUser"/>
+        </properties>
+      </component>
+      <component id="cd3ce" class="javax.swing.JButton" binding="enumAllSpaceButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="EnumAllSpace"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
